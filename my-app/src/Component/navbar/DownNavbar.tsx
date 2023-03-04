@@ -19,6 +19,7 @@ interface imagee {
     Images: string
 }
 
+
 const DownNavbar = () => {
 
     const { user } = useContext(UserContext)
@@ -34,7 +35,7 @@ const DownNavbar = () => {
         var userId = user.id
     }
 
-    // GETTING USER ID
+    // GETTING USER ID from backend
 
     useEffect(() => {
         try {
